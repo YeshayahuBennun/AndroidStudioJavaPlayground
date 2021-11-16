@@ -2,7 +2,26 @@ package com.ybennun.learnjava;
 
 public class MyClass {
     public static void main(String[] args) {
-        String name = "Carlos";
+        double a = 20;
+        double b = 34;
+
+        //casting
+        int sum = (int) (a + b);
+        int diff = (int) (a - b);
+        int mult = (int) (a*b);
+
+        //the variable needs to be a double type.
+        double quot = a/b;
+
+        System.out.println("This sum is: " + sum);
+        System.out.println("This difference is: " + diff);
+        System.out.println("This product is: " + mult);
+        System.out.println("This quotient is: " + quot);
+
+        /*
+        LONG COMMENT
+        */
+  /*      String name = "Carlos";
         int age = 23;
         int year = 1988989898; // 32 bits
         long bigNumber = 198898989889899L; //64 bits bigger than 10 digits but is necessary to put the type L in the end.
@@ -19,15 +38,15 @@ public class MyClass {
         //First Category
         //boolean and char
 
-        /*Second category
-        * Numeric
-        *   - byte
-        *   - short
-        *   - int
-        *   - long
-        * Floating point
-        *   - float
-        *   - double*/
+        *//*Second category
+         * Numeric
+         *   - byte
+         *   - short
+         *   - int
+         *   - long
+         * Floating point
+         *   - float
+         *   - double*/
 
     }
 }
