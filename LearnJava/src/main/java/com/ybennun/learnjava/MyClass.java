@@ -2,8 +2,8 @@ package com.ybennun.learnjava;
 
 public class MyClass {
     public static void main(String[] args) {
-        double a = 20;
-        double b = 34;
+        double a = 12;
+        double b = 8;
 
         //casting
         int sum = (int) (a + b);
@@ -13,10 +13,18 @@ public class MyClass {
         //the variable needs to be a double type.
         double quot = a/b;
 
+        //Remainder = % --> "what remains .."
+
+        double remainder = a%b;
+
+        System.out.println("The remainder: " + remainder);
         System.out.println("This sum is: " + sum);
         System.out.println("This difference is: " + diff);
         System.out.println("This product is: " + mult);
         System.out.println("This quotient is: " + quot);
+
+
+
 
         /*
         LONG COMMENT
