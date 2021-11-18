@@ -39,7 +39,7 @@ public class IfBranching {
         if (isTall) {
             System.out.println("True...");
         } else {
-            System.out.println("Not treu...");
+            System.out.println("Not true...");
         }
 
         if (!isTall) {
