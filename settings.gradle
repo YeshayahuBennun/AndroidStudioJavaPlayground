@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 rootProject.name = "JavaPlayground"
 include ':app'
 include ':LearnJava'
+include ':AtmExercise'
