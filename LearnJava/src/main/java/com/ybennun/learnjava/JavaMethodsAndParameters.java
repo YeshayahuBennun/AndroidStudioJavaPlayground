@@ -4,15 +4,33 @@ import com.sun.tools.javac.comp.Todo;
 
 public class JavaMethodsAndParameters {
     public static void main(String[] args) {
+
+        double item = divideNumberss(3, 5);
+        String bio = showBio("George", "I was born in Nebraska", 75);
+
         myName("Paulo");
         System.out.println(addNumbers(12, 12));
         anotherMethod("Hello", 23);
         showName();
         System.out.println(showFullName("George", "The man"));
         System.out.println(showChar('B'));
+        System.out.println("Result is: " + item);
+        System.out.println(bio);
     }
 
-    // TODO: 26/11/2021 create a multiplyNumbers(),divideNumbers()...
+    public static String showBio(String name, String bio, int age) {
+
+        return "My name is " + name + " and I am " + age + " years old." + bio;
+    }
+
+    public static void divideNumbers(double first, int second) {
+        System.out.println("Result is: " + first / second);
+    }
+
+    public static double divideNumberss(double first, int second) {
+        return (first / second);
+    }
+
     public static void myName(String mName) {
         System.out.println(mName);
     }
