@@ -8,6 +8,7 @@ public class JavaMethodsAndParameters {
         double item = divideNumberss(3, 5);
         String bio = showBio("George", "I was born in Nebraska", 75);
 
+        multiplyNumbers(3, 5);
         myName("Paulo");
         System.out.println(addNumbers(12, 12));
         anotherMethod("Hello", 23);
@@ -16,6 +17,10 @@ public class JavaMethodsAndParameters {
         System.out.println(showChar('B'));
         System.out.println("Result is: " + item);
         System.out.println(bio);
+    }
+
+    public static void multiplyNumbers(int first, int second) {
+        System.out.println("Result: " + first + second);
     }
 
     public static String showBio(String name, String bio, int age) {
