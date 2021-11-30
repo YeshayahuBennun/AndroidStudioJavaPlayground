@@ -17,5 +17,15 @@ public class MyClassOOP {
         System.out.println(microphone.name);
         System.out.println(gHMic.name);
 
+        microphone.turnOn();
+        microphone.setVolume();
+        microphone.turnOff();
+
+        gHMic.turnOn();
+        gHMic.setVolume();
+        gHMic.turnOff();
+
+        System.out.println(microphone.showDescription());;
+
     }
 }
