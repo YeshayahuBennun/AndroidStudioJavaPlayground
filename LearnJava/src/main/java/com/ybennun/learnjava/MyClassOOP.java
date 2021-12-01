@@ -2,16 +2,16 @@ package com.ybennun.learnjava;
 
 public class MyClassOOP {
     public static void main(String[] args) {
-        Microphone microphone = new Microphone();//instantiating our object.
-        microphone.color = "Blue";
+        Microphone microphone = new Microphone("Blue Yeti", "Blue", 364663);//instantiating our object.
+        /*microphone.color = "Blue";
         microphone.name = "Blue Yeti";
-        microphone.model = 133543;
+        microphone.model = 133543;*/
 
-        Microphone gHMic = new Microphone();
+        Microphone gHMic = new Microphone("GHMic", "Red", 546);
 
-        gHMic.model = 465;
+        /*gHMic.model = 465;
         gHMic.name = "GHZB";
-        gHMic.color = "Red";
+        gHMic.color = "Red";*/
 
 
         System.out.println(microphone.name);
@@ -25,7 +25,8 @@ public class MyClassOOP {
         gHMic.setVolume();
         gHMic.turnOff();
 
-        System.out.println(microphone.showDescription());;
+        System.out.println(microphone.showDescription());
+        ;
 
     }
 }

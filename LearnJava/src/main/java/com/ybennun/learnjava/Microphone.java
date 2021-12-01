@@ -6,6 +6,13 @@ public class Microphone {
     String color;
     int model;
 
+
+    public Microphone(String name, String color, int model) {
+        this.name = name;
+        this.color = color;
+        this.model = model;
+    }
+
     //Actions methods
     public void turnOff() {
         System.out.println(this.name + " Turning off");
