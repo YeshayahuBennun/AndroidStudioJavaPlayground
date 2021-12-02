@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/AtmExercise" />
             <option value="$PROJECT_DIR$/LearnJava" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/jconstructors" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

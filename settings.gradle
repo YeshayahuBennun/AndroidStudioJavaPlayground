@@ -10,3 +10,4 @@ rootProject.name = "JavaPlayground"
 include ':app'
 include ':LearnJava'
 include ':AtmExercise'
+include ':jconstructors'
