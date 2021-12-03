@@ -13,9 +13,13 @@ public class MyClassOOP {
         gHMic.name = "GHZB";
         gHMic.color = "Red";*/
 
+        microphone.setModel(87);
+        microphone.setName("New Blue Yeti");
+        microphone.setColor("Red Blue");
 
-        System.out.println(microphone.name);
-        System.out.println(gHMic.name);
+
+        System.out.println("New Mic: " + microphone.getName());
+        System.out.println("New Mic: " + gHMic.getName());
 
         microphone.turnOn();
         microphone.setVolume();
