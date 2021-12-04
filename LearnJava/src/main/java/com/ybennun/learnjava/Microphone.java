@@ -6,11 +6,20 @@ public class Microphone {
     private String color;
     private int model;
 
+    public Microphone() {
+    }
+
 
     public Microphone(String name, String color, int model) {
         this.name = name;
         this.color = color;
         this.model = model;
+    }
+
+    public Microphone(String name, String color) {
+        this.name = name;
+        this.color = color;
+
     }
 
     public String getName() {

@@ -19,18 +19,22 @@ public class MyClassOOP {
 
 
         System.out.println("New Mic: " + microphone.getName());
-        System.out.println("New Mic: " + gHMic.getName());
 
         microphone.turnOn();
         microphone.setVolume();
         microphone.turnOff();
 
-        gHMic.turnOn();
-        gHMic.setVolume();
-        gHMic.turnOff();
-
         System.out.println(microphone.showDescription());
-        ;
+
+        Microphone newMic = new Microphone("NewMic", "Green", 123);
+
+        Microphone otherMic = new Microphone();
+
+        otherMic.setColor("OtherMic");
+
+        System.out.println(otherMic.getColor());
+
+        Microphone grandMic = new Microphone("Grand","Yellow");
 
     }
 }
