@@ -34,7 +34,7 @@ public class MyClassOOP {
 
         System.out.println(otherMic.getColor());
 
-        Microphone grandMic = new Microphone("Grand","Yellow");
+        Microphone grandMic = new Microphone("Grand", "Yellow");
 
     }
 }
