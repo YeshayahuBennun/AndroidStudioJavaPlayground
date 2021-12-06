@@ -19,6 +19,7 @@ public class Main {
         manager.setId(456);
         manager.setAnnualSalary(450000);
 
-        System.out.println(manager.getAnnualSalary() + " , " + manager.getFirstName());
+
+        System.out.println(manager.getAnnualSalary() + " , " + manager.getFirstName()+"id: "+manager.getId());
     }
 }
