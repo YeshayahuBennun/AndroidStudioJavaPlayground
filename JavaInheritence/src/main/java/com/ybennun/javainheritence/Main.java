@@ -20,6 +20,9 @@ public class Main {
         manager.setAnnualSalary(450000);
 
 
-        System.out.println(manager.getAnnualSalary() + " , " + manager.getFirstName()+"id: "+manager.getId());
+        System.out.println(manager.getAnnualSalary() + " , " + manager.getFirstName() + "id: " + manager.getId());
+
+        System.out.println(manager);
+
     }
 }

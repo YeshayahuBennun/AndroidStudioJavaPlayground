@@ -4,8 +4,6 @@ public class Employee extends Person {
     private int id;
     private double annualSalary;
 
-
-
     public double getAnnualSalary() {
         return annualSalary;
     }
@@ -20,5 +18,13 @@ public class Employee extends Person {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", annualSalary=" + annualSalary +
+                '}';
     }
 }
