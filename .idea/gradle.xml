@@ -12,6 +12,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/AtmExercise" />
+            <option value="$PROJECT_DIR$/JavaArrays" />
             <option value="$PROJECT_DIR$/JavaInheritence" />
             <option value="$PROJECT_DIR$/LearnJava" />
             <option value="$PROJECT_DIR$/app" />
