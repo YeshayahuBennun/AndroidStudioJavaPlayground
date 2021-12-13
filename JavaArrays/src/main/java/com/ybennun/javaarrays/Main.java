@@ -1,5 +1,7 @@
 package com.ybennun.javaarrays;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         int[] myArray = {1, 33, 4, 12, 89, 98, 90, 12, 43, 1234}; //length = 6
@@ -18,6 +20,6 @@ public class Main {
             System.out.println("Items: " + newArray[i]);
         }
 
-        System.out.println(myArray[0]);
+
     }
 }
